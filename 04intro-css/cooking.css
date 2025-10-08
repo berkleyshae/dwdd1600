@@ -1,0 +1,120 @@
+/* Body Formatting */
+body {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+/* Header Formatting */
+header {
+  background-color: #DA3030;
+  padding: 1rem 1rem 1rem 1rem;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700
+}
+
+
+
+
+/* Navigation Formating */
+nav {
+  background-color: #fa902d;
+  border-radius: 5px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0 10px;
+  list-style-type: none;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+nav li.active a {
+  background-color: white;
+  color: #fa902d;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #fa902d;
+}
+
+
+
+/* Main Section Formatting */
+main {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+main h1 {
+    color: #fff;
+    background-color:#fa902d;
+    padding: 10px;
+    display:inline-flex;
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+main h2 {
+    color: #fa902d;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color:#171a2c;
+    font-weight:300;
+    margin: 0;
+}
+
+main ol {
+padding: .5rem 30px;
+background-color: #eaeaea;
+list-style-type: decimal;
+}
+
+main dl dt {
+  color: #6c95be;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+main dl dd {
+  color:#171a2c;
+  font-weight:300;
+}
+
+main ul {
+  list-style-type: circle;
+  padding: .5rem 30px;
+}
+
+main address {
+  font-weight: 400;
+  background-color: #fa902d;
+  padding: .5rem;
+  border: 3px solid #171a2c;
+  width: 200px;
+  border-radius: .5rem;
+}
+
+
+/* Footer Formating*/
+footer {
+  background-color: #eaeaea;
+  text-align: center;
+  color: #333;
+}
